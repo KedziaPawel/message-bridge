@@ -2,6 +2,10 @@
 
 This project lets you send messages between two different networks. The sender contract is deployed on the Sepolia network and the receiver contract is deployed on the Optimism Sepolia network. The sender contract sends a message to the receiver contract and the receiver contract receives the message.
 
+## Overview
+The project is a PoC. It uses [Scaffold ETH 2](https://github.com/scaffold-eth/scaffold-eth-2) as a boilerplate to speed up prototyping time.
+The smart contract part is inside [contracts](https://github.com/KedziaPawel/message-bridge/tree/main/packages/foundry/contracts). The frontend part is in the [main page](https://github.com/KedziaPawel/message-bridge/blob/main/packages/nextjs/app/page.tsx).
+
 ## Requirements
 
 Before you begin, you need to install the following tools:
